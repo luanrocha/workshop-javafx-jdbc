@@ -15,7 +15,7 @@ import db.DbException;
 import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
-import util.Utils;
+import model.util.Utils;
 
 public class SellerDaoJDBC implements SellerDao {
 	private Connection conn;
